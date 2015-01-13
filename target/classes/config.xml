@@ -1,0 +1,9 @@
+<config>
+	<database>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost/coursetrendanalyzer1
+		</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">root</property>
+	</database>
+</config>

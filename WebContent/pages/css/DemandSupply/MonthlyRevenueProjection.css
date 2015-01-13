@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+
+#month_selection,#year_selection,#subpractice_list,#location_type {
+	width: 142px;
+}
+
+#criteria_selection_table {
+	margin: auto;
+	border-spacing: 10px;
+}
+
+label {
+	cursor: auto;
+}

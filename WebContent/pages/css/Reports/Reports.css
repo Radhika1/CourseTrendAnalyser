@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+#reports {
+	padding-bottom: 8px;
+	box-shadow: 0px 0px 6px 1px #999;
+	border: 0px solid gray;
+	border-collapse: collapse;
+	margin-top: 80px;
+	min-height: 100px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+
+#reports h1 {
+	margin: 0 20px 15px;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0 5px;
+}
+
+.charttable h1 {
+	margin: 0 20px 15px;
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0 5px;
+}
+
+#ajaxBusy {
+	margin-left: auto;
+	margin-right: auto;
+	width: 35px;
+	position: relative;
+	top: 120px;
+	display: block;
+}
+
+#chart-container {
+	padding: 5px;
+}
+
+#chartPlot {
+	box-shadow: 0px 0px 6px 1px #999;
+	border: 0px solid gray;
+	border-collapse: collapse;
+	margin-top: 20px;
+	min-height: 270px;
+	padding-bottom: 8px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+
+#arrow-img-container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	width: 49px;
+	height: 51px;
+	margin-right: auto;
+}
+
+#noDataMessage {
+	font-size: 18px;
+	margin-top: 25%;
+	margin-left: 30%;
+	border: 1px solid #CCC;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+}
+
+.graphBar:hover {
+	-moz-box-shadow: 0px 0px 1px 1px #666666;
+	-webkit-box-shadow: 0px 0px 1px 1px #666666;
+	box-shadow: 0px 0px 1px 1px #666666;
+}
+
+.gridline {
+	background-color: rgb(203, 203, 203);
+	height: 1px;
+}
